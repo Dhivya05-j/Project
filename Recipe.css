@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+ main{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding:32px;
+    width: 670px;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} 
+img{
+  width: 600px;
+  height: 250px;
+}
+ h1{
+  color: hsl(32, 8%, 31%);
+  font-family: "Young Serif", serif;
+  font-size: 28px;
+  margin-top: 15px;
+} 
+p{
+    color: hsl(24, 5%, 18%);
+     font-family: "Outfit", sans-serif;
+     font-size: 16px;
+     margin-top: 13px;
+     margin-bottom: 25px;
+}
+#con1>h3{
+     color: hsl(332, 51%, 32%);
+     font-family: "outfit",sans-serif ;
+     font-size: 15px;
+     margin-left: 30px;
+     margin-bottom: 15px;
+}
+#con1>ul>li{
+    color:  hsl(24, 5%, 18%);
+    font-family: "outfit",sans-serif;
+    font-size: 16px;
+    margin-left: 60px;
+    margin-bottom: 8px;
+    
+}
+#con2>h2{
+    color: hsl(14, 45%, 36%);
+    font-family:"Young Serif", serif ;
+    font-size:20px;
+    letter-spacing: 1;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+}
+#con2>ul>li{
+    color: hsl(24, 5%, 18%);
+    font-family: "outfit",sans-serif;
+    font-size: 16px;
+    margin-left: 43px;
+    margin-bottom: 8px;
+}
+#con3>h2{
+    color: hsl(14, 45%, 36%);
+    font-family:"Young Serif", serif ;
+    font-size:20px;
+    letter-spacing: 1;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+}
+#con3>ol>li{
+    color: hsl(24, 5%, 18%);
+    font-family: "outfit",sans-serif;
+    font-size: 16px;
+    margin-left: 43px;
+    margin-bottom: 8px;
+    
+}
+#con4>h2{
+     color: hsl(14, 45%, 36%);
+    font-family:"Young Serif", serif ;
+    font-size:20px;
+    letter-spacing: 1;
+    margin-top: 30px;
+    margin-bottom: 15px;    
+
+}
+#con4>p{
+     color: hsl(24, 5%, 18%);
+    font-family: "outfit",sans-serif;
+    font-size: 16px;
+}
+table{
+    width: 100%;
+}
+th,td{
+    border-bottom: 1px solid hsl(14, 45%, 36%);
+    padding: 10px;
+    font-family: "outfit",sans-serif;
+    font-size: 16px;
+  
+}
+td:last-child{
+    color:hsl(14, 45%, 36%) ;
+    font-weight: 800;
+}
